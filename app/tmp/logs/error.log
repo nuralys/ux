@@ -25797,6 +25797,7 @@ Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+<<<<<<< HEAD
 2016-02-25 12:37:00 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
@@ -28409,4 +28410,32 @@ Exception Attributes: array (
 Request URL: /form.php
 Stack Trace:
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+=======
+2016-03-01 09:47:48 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+Exception Attributes: array (
+  'class' => 'AsdasdController',
+  'plugin' => NULL,
+)
+Request URL: /asdasd?search=%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 09:49:45 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+Exception Attributes: array (
+  'class' => 'AsdasdController',
+  'plugin' => NULL,
+)
+Request URL: /asdasd?search=%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 09:49:52 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+Exception Attributes: array (
+  'class' => 'AsdasdController',
+  'plugin' => NULL,
+)
+Request URL: /asdasd?search=%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+>>>>>>> 0cc5de61ea13dddde1ebaa648b85755f8e9f5713
 #1 {main}

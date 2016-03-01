@@ -505,6 +505,12 @@
 .portfolio_second_img {
     float: left;
     margin-right: 10px;
+    width: 16%;
+    overflow: hidden;
+}
+
+.portfolio_second_img img {
+    width:100%;
 }
 .portfolio_second_lvl li {
     overflow: hidden;

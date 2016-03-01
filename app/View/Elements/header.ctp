@@ -14,15 +14,22 @@
 						</ul>
 						<div class="mob_close"></div>
 					</div>
+					<form action="asdasd" id="m_form">
 					<div class="m_search">
 						<div class="m_input">
+<<<<<<< HEAD
 						<form>
 							<input type="text" class="" name="" placeholder="Поиск"/>
 							
 								<button type="submit" class="sub_but"></button>
 							</form>
+=======
+							<input type="text" required="required" name="search" placeholder="Поиск"/>
+								<button type="submit" class="sub_but" onclick="document.getElementById('m_form').submit(); return false;"></button>
+>>>>>>> 0cc5de61ea13dddde1ebaa648b85755f8e9f5713
 							</div>
 						</div>
+					</form>
 				</div>
 			</div>
 			<div class="head">
@@ -55,6 +62,7 @@
 								<li><a href="/page/contacts">CONTACTS  </a></li>	
 							</ul>
 						</nav>
+<<<<<<< HEAD
 						<div class="search">
 							<div class="s_input">
 							<form action="/news/search/" method="post">
@@ -62,8 +70,18 @@
 							
 								<button type="submit" class="sub_but"></button>
 							</form>
+=======
+						<form acton="" id="s_form" >
+							<div class="search" >
+								<div class="s_input">
+								<input type="text" required="required" name="search" placeholder="Поиск" />
+								
+									<button type="submit" class="sub_but" onclick="document.getElementById('s_form').submit(); return false;"></button>
+								
+								</div>
+>>>>>>> 0cc5de61ea13dddde1ebaa648b85755f8e9f5713
 							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
