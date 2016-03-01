@@ -18,7 +18,7 @@
 						</div>
 						<?php endforeach ?>
 					</section>
-					<a href="" class="feed_back comments">Give feedback</a>
+					<a href="#modal2" class="open_modal feed_back comments">Give feedback</a>
 					<a href="" class="all_comment">All reviews</a>
 				</div>
 				<div class="news_slide">

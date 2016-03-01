@@ -37,6 +37,7 @@
 		</div>
 			<?=$this->element('footer')?>
 	</div>
+	
 	<?php echo $this->element('contact_us') ?>
 </body>
 </html>
