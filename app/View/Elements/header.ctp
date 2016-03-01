@@ -31,7 +31,7 @@
 					<a href="" class="logo">
 						<img src="/img/logo.png" alt="Usability lab">
 					</a>
-					<a href="" class="feed_back">
+					<a href="#modal1" class="open_modal feed_back">
 						CONTACT US
 					</a>
 				</div>
