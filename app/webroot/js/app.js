@@ -112,9 +112,45 @@ jQuery(document).ready(function ($) {
         slidesToScroll: 6,
         pauseOnHover: true,
         initialSlide: 0,
-        infinite:true,
         prevArrow: '<span class="slick-prev our_clients_nav slick-nav--prev" aria-label="previous"></span>',
-        nextArrow: '<span class="slick-next our_clients_nav slick-nav--next" aria-label="next"></span>'
+        nextArrow: '<span class="slick-next our_clients_nav slick-nav--next" aria-label="next"></span>',
+		responsive: [
+		{
+		  breakpoint: 960,
+		  settings: {
+			slidesToShow: 5,
+			slidesToScroll: 1,
+		  }
+		},
+		{
+		  breakpoint: 778,
+		  settings: {
+			slidesToShow: 4,
+			slidesToScroll: 1,
+		  }
+		},
+		{
+		  breakpoint: 680,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 1,
+		  }
+		},
+		{
+		  breakpoint: 520,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1,
+		  }
+		},
+		{
+		  breakpoint: 420,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+		  }
+		},
+	]
     });
 });
 
