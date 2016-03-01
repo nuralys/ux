@@ -118,11 +118,11 @@
 /*UIUX Astana*/
 .slider_container {
     position: relative;
-    background: linear-gradient(to bottom, #ffa54c, #ff8003);
-    border-bottom: 4px solid #fff;
-    -webkit-box-shadow: 0 4px 2px -2px gray;
+    /* background: linear-gradient(to bottom, #ffa54c, #ff8003); */
+    /* border-bottom: 4px solid #fff; */
+    /* -webkit-box-shadow: 0 4px 2px -2px gray; */
     -moz-box-shadow: 0 4px 2px -2px gray;
-    box-shadow: 0 4px 2px -2px gray;
+    /* box-shadow: 0 4px 2px -2px gray; */
     float: left;
     width: 100%;
     margin-bottom: 70px;
@@ -135,6 +135,7 @@
 .slider-text {
     float: left;
     width: 60%;
+    height: 315px;
 }
 .slider-text .slider__item,.slider-photo .slider__item {
     padding-top: 30px;
@@ -332,3 +333,11 @@
 }
 
 /*out clients*/
+.two_slider {
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

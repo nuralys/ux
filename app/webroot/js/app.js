@@ -58,16 +58,25 @@ jQuery(document).ready(function ($) {
         slidesToScroll: 1,
         arrows: false,
         fade: false,
-        asNavFor: '.slider-text',
         lazyLoad: 'progressive',
         speed: 1000,
         fade: true,
     });
-    $('.slider-text').slick({
+    $('.big_photo').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: false,
+        speed: 1000,
+        fade: true,
+		lazyLoad: false,
+    });
+	$('.slider-text').slick({
         slidesToShow: 1,
         arrows: false,
         slidesToScroll: 1,
         asNavFor: '.slider-photo',
+		asNavFor: '.big_photo',
         dots: true,
         centerMode: false,
         focusOnSelect: true,
