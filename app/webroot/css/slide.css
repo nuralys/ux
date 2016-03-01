@@ -211,12 +211,13 @@
     font-size: 18px;
     margin-bottom: 12px;
 }
-.slider_comment_content p {
+.slider_comment_content p,.slider_comment_content p {
     font-size: 14px;
     text-indent: 30px;
     text-align: justify;
     margin-bottom: 20px;
 }
+/*asdasd*/
 .feed_back.comments {
     float: left;
 }
