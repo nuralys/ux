@@ -28511,201 +28511,1103 @@ Request URL: /js/jquery.min.js
 Stack Trace:
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+<<<<<<< HEAD
 2016-03-01 19:07:14 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+2016-03-01 14:38:52 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:14 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+#1 {main}
+2016-03-01 14:39:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:39:01 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:17 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:39:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:39:06 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:17 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:39:27 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:20 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:39:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:40:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:40:51 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:40:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:40:56 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:20 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:00 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:22 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:02 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:22 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:02 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:25 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:05 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:25 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+#1 {main}
+2016-03-01 14:41:06 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:29 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:06 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:29 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:09 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:36 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:09 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:36 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:14 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:40 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:15 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:40 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:15 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:43 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:16 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:43 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:41:16 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2016-03-01 19:07:46 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:45:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:45:10 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
-#0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2016-03-01 19:07:46 Error: [MissingControllerException] Controller class JsController could not be found.
-Exception Attributes: array (
-  'class' => 'JsController',
-  'plugin' => NULL,
-)
-Request URL: /js/jquery.imgareaselect.js
-Stack Trace:
-#0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2016-03-01 19:07:51 Error: [MissingControllerException] Controller class JsController could not be found.
+2016-03-01 14:45:35 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.min.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2016-03-01 19:07:51 Error: [MissingControllerException] Controller class JsController could not be found.
+2016-03-01 19:07:46 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:45:35 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
 Request URL: /js/jquery.imgareaselect.js
 Stack Trace:
+<<<<<<< HEAD
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 19:07:51 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:47:52 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+<<<<<<< HEAD
+#0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 19:07:51 Error: [MissingControllerException] Controller class JsController could not be found.
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:47:52 Error: [MissingControllerException] Controller class JsController could not be found.
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+<<<<<<< HEAD
+#0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+=======
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:48:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:48:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:23 Error: Fatal Error (4): syntax error, unexpected '']['' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\OpenServer\domains\ux.loc\app\View\Clients\admin_index.ctp, line 8]
+2016-03-01 14:49:23 Error: [FatalErrorException] syntax error, unexpected '']['' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /admin/clients
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\OpenServer\\d...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\OpenServer\\d...', 8, Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\OpenServer\\d...', 8, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-01 14:49:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:49:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:50:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:50:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:50:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:50:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:50:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:50:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:51:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:51:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:51:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:51:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:51:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.imgareaselect.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:51:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.min.js
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:52:20 Error: [MissingControllerException] Controller class ProtfolioController could not be found.
+Exception Attributes: array (
+  'class' => 'ProtfolioController',
+  'plugin' => NULL,
+)
+Request URL: /protfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:52:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:54:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 14:54:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 19:20:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:08:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /services
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ServicesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /page/why_choose_us
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /page/why_choose_us
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:09:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /portfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PortfoliosController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:10:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+Request URL: /?search=asd
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Review`...', Array)
+#2 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Review`...', Array, Array)
+#3 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Review`...', false)
+#4 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Review), Array)
+#5 C:\OpenServer\domains\ux.loc\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(66): Model->find('all', Array)
+#7 C:\OpenServer\domains\ux.loc\app\Controller\AppController.php(50): AppController->_getReviews()
+#8 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#9 C:\OpenServer\domains\ux.loc\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 C:\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#12 C:\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-03-01 22:15:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/big.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:15:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:15:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/big.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:15:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:17:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:17:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:17:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:22:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:22:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:23:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 22:23:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+>>>>>>> cc969913048f37f1e98f1605826e3509100010c5
 #1 {main}
