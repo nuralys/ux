@@ -16,7 +16,7 @@
 					</div>
 					<form action="asdasd" id="m_form">
 					<div class="m_search">
-						<div class="m_input">
+						<div class="m_input asdasdasdasdasdasd">
 							<input type="text" required="required" name="search" placeholder="Поиск"/>
 								<button type="submit" class="sub_but" onclick="document.getElementById('m_form').submit(); return false;"></button>
 							</div>
