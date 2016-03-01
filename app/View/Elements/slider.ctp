@@ -1,13 +1,12 @@
 <div class="slider_container">
 	<section class="big_photo" >
-		<div class="slider__item">
-				<img src="img/big.jpg" alt="">
+		<div class="slider___item one">
 		</div>
-		<div class="slider__item">
-				<img src="img/bigs.jpg" alt="">
+		<div class="slider___item two">
 		</div>
-		<div class="slider__item">
-				<img src="img/bigs.jpg" alt="">
+		<div class="slider___item three">
+		</div>
+		<div class="slider___item four">
 		</div>
 	</section>
 	<div class=" cr ">

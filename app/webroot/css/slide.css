@@ -342,3 +342,18 @@
     right: 0;
     margin: 0 auto;
 }
+.slider___item {
+    height: 320px;
+}
+.slider___item.one{
+	background-image:url(../img/slider_fiolet.jpg);
+}
+.slider___item.two{
+	background-image:url(../img/slider_golub.jpg);
+}
+.slider___item.three{
+	background-image:url(../img/slider_orange.jpg);
+}
+.slider___item.four{
+	background-image:url(../img/slider_zelen.jpg);
+}

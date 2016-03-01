@@ -29647,3 +29647,12 @@ Request URL: /img/bigs.jpg
 Stack Trace:
 #0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-03-01 22:55:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bigs.jpg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
