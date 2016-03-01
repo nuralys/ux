@@ -19,7 +19,7 @@
 						<?php endforeach ?>
 					</section>
 					<a href="" class="feed_back comments">Give feedback</a>
-					<a href="" class="all_comment">All reviews</a>
+					<a href="/reviews" class="all_comment">All reviews</a>
 				</div>
 				<div class="news_slide">
 					<section class="slider-news" >
@@ -40,7 +40,7 @@
 						<?php endforeach ?>
 					</section>
 					<a href="" class="feed_back comments">Comment</a>
-					<a href="" class="all_comment">All comments</a>
+					<a href="/news" class="all_comment">All comments</a>
 				</div>
 			</div>
 		</div>

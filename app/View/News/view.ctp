@@ -1,22 +1,21 @@
 <div class="breadcrumbs_item_container">
-						<a href="/" class="breadcrumbs_item">Home page</a>
-						<a href="/news" class="breadcrumbs_item">NEWS</a>
-						<a class="breadcrumbs_item"><?=$post['News']['title'] ?></a>
-					</div>
-				
-				<div class="content">
-					<div class="news_item">
-						<div class="news_img">
-							<img src="/img/news/thumbs/<?=$post['News']['img']?>" alt="<?=$post['News']['title'] ?>">
-						</div>
-						<div class="title_min">
-							<h3><?=$post['News']['title'] ?></h3>
-						</div>
-						<div class="date"><?=$post['News']['date'] ?></div>
-						<?=$post['News']['body'] ?>
-					</div>
-					
-				</div>
+	<a href="/" class="breadcrumbs_item">Home page</a>
+	<a href="/news" class="breadcrumbs_item">NEWS</a>
+	<a class="breadcrumbs_item"><?=$post['News']['title'] ?></a>
+</div>
+
+<div class="content">
+	<div class="news_item">
+		<div class="news_img">
+			<img src="/img/news/thumbs/<?=$post['News']['img']?>" alt="<?=$post['News']['title'] ?>">
+		</div>
+		<div class="title_min">
+			<h3><?=$post['News']['title'] ?></h3>
+		</div>
+		<div class="date"><?=$post['News']['date'] ?></div>
+		<?=$post['News']['body'] ?>
+	</div>
+</div>
 <div id="hypercomments_widget"></div>
 <script type="text/javascript">
 _hcwp = window._hcwp || [];

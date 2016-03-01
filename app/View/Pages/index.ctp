@@ -19,3 +19,4 @@
 					</div>
 				</div>
 			</div>
+			<?php //echo $this->element('news_reviews_clients') ?>

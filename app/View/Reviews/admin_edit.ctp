@@ -4,6 +4,8 @@
 echo $this->Form->create('Review');
 echo $this->Form->input('title', array('label' => 'ФИО', 'class' => 'admin_input_f model fl_r'));
 echo $this->Form->input('body', array('label' => 'Текст отзыва', 'id' => 'editor'));
+echo $this->Form->input('website', array('label' => 'Ссылка', 'class' => 'admin_input_f model fl_r'));
+echo $this->Form->input('active', array('label' => 'Активность', 'class' => 'admin_input_f model fl_r', 'type' => 'checkbox' ));
 ?>
 </div>
 	<?

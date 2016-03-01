@@ -16,10 +16,11 @@
 					</div>
 					<div class="m_search">
 						<div class="m_input">
-							<input type="search" class="" name="search" placeholder="Поиск"/>
+						<form>
+							<input type="text" class="" name="" placeholder="Поиск"/>
 							
 								<button type="submit" class="sub_but"></button>
-							
+							</form>
 							</div>
 						</div>
 				</div>
@@ -28,10 +29,10 @@
 				<div class="cr">
 				
 
-					<a href="" class="logo">
+					<a href="/" class="logo">
 						<img src="/img/logo.png" alt="Usability lab">
 					</a>
-					<a href="" class="feed_back">
+					<a href="#modal1" class="feed_back">
 						CONTACT US
 					</a>
 				</div>
@@ -56,10 +57,11 @@
 						</nav>
 						<div class="search">
 							<div class="s_input">
-							<input type="search" class="" name="search" placeholder="Поиск"/>
+							<form action="/news/search/" method="post">
+							<input type="text" class="" name="q" placeholder="Поиск"/>
 							
 								<button type="submit" class="sub_but"></button>
-							
+							</form>
 							</div>
 						</div>
 					</div>

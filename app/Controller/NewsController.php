@@ -74,6 +74,7 @@ class NewsController extends AppController{
 		$news = $this->News->find('all', array(
 			'order' => array('date' => 'desc')
 			));
+		// debug($news);
 		$this->set(compact('news', 'title_for_layout'));
 	}
 

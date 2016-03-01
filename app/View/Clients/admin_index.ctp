@@ -3,9 +3,9 @@
 <ul>
 	<?php foreach($data as $item): ?>
 		<li class="news_item_admin">
-			<div class="news_admin_title"><?=$item['Сlient']['title']?> </div>
-			<div class="news_edit">	<a href="clients/edit/<?=$item['Сlient']['id']?>">Редактировать</a> </div> 
-		<div class="news_del">	<?php echo $this->Form->postLink('Удалить', array('action' => 'admin_delete', $item['Сlient']['id']), array('confirm' => 'Подтвердите удаление')); ?>
+			<div class="news_admin_title"><?=$item['Client']['title']?> </div>
+			<div class="news_edit">	<a href="clients/edit/<?=$item['Client']['id']?>">Редактировать</a> </div> 
+		<div class="news_del">	<?php echo $this->Form->postLink('Удалить', array('action' => 'admin_delete', $item['Client']['id']), array('confirm' => 'Подтвердите удаление')); ?>
 			</div> 
 		</li>
 		<hr><br>

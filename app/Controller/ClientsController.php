@@ -5,6 +5,7 @@ class ClientsController extends AppController{
 	public function admin_index(){
 		$data = $this->Client->find('all');
 		$title_for_layout = 'Clients';
+		// debug($data);
 		$this->set(compact('data', 'title_for_layout'));
 	}
 
