@@ -14,14 +14,14 @@
 						</ul>
 						<div class="mob_close"></div>
 					</div>
+					<form action="asdasd" id="m_form">
 					<div class="m_search">
 						<div class="m_input">
-							<input type="search" class="" name="search" placeholder="Поиск"/>
-							
-								<button type="submit" class="sub_but"></button>
-							
+							<input type="text" required="required" name="search" placeholder="Поиск"/>
+								<button type="submit" class="sub_but" onclick="document.getElementById('m_form').submit(); return false;"></button>
 							</div>
 						</div>
+					</form>
 				</div>
 			</div>
 			<div class="head">
@@ -54,14 +54,16 @@
 								<li><a href="/page/contacts">CONTACTS  </a></li>	
 							</ul>
 						</nav>
-						<div class="search">
-							<div class="s_input">
-							<input type="search" class="" name="search" placeholder="Поиск"/>
-							
-								<button type="submit" class="sub_but"></button>
-							
+						<form acton="" id="s_form" >
+							<div class="search" >
+								<div class="s_input">
+								<input type="text" required="required" name="search" placeholder="Поиск" />
+								
+									<button type="submit" class="sub_but" onclick="document.getElementById('s_form').submit(); return false;"></button>
+								
+								</div>
 							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
