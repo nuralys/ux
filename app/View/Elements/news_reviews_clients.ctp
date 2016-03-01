@@ -18,13 +18,8 @@
 						</div>
 						<?php endforeach ?>
 					</section>
-<<<<<<< HEAD
-					<a href="" class="feed_back comments">Give feedback</a>
-					<a href="/reviews" class="all_comment">All reviews</a>
-=======
 					<a href="#modal2" class="open_modal feed_back comments">Give feedback</a>
 					<a href="" class="all_comment">All reviews</a>
->>>>>>> 901811819bdcdb21de2d17caf7e818d5478fe2bc
 				</div>
 				<div class="news_slide">
 					<section class="slider-news" >
@@ -45,7 +40,7 @@
 						<?php endforeach ?>
 					</section>
 					<a href="" class="feed_back comments">Comment</a>
-					<a href="/news" class="all_comment">All comments</a>
+					<a href="" class="all_comment">All comments</a>
 				</div>
 			</div>
 		</div>
