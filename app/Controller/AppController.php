@@ -61,7 +61,9 @@ class AppController extends Controller {
 	}
 
 	protected function _getReviews(){
-		$reviews = $this->Review->find('all');
+		$reviews = $this->Review->find('all', array(
+			'conditions' => array('active' => '1')
+		));
 		return $reviews;
 	}
 }

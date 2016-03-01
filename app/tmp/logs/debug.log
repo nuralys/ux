@@ -1,0 +1,11 @@
+2016-02-29 15:00:17 Debug: Notice (8): Undefined variable: recommended in [C:\openserver\OpenServer\domains\ux.loc\app\View\Pages\home.ctp, line 46]
+Trace:
+include - APP\View\Pages\home.ctp, line 46
+View::_evaluate() - CORE\Cake\View\View.php, line 961
+View::_render() - CORE\Cake\View\View.php, line 923
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 960
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 118
+

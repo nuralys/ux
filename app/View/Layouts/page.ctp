@@ -33,6 +33,7 @@
 				<?php echo $this->Session->flash('good'); ?>
 				<?php echo $this->Session->flash('bad'); ?>
 				<?php echo $this->fetch('content'); ?>
+				<?php // echo $this->element('news_reviews_clients') ?>
 			</div>
 		</div>
 			<?=$this->element('footer')?>

@@ -11,7 +11,7 @@ class PagesController extends AppController {
 			'limit' => 4,
 			'order' => array('date' => 'desc')
 		));
-		$reviews = $this->Review->find('all');
+		
 		$clients = $this->Client->find('all');
 		$sliders = $this->Slider->find('all', array(
 			'order' => array('id' => 'desc')
@@ -19,7 +19,7 @@ class PagesController extends AppController {
 		
 		$this->layout = 'index';
 		$title_for_layout = 'Usability Lab';
-		$this->set(compact('news', 'title_for_layout', 'reviews', 'clients', 'sliders'));
+		$this->set(compact('news', 'title_for_layout', 'clients', 'sliders'));
 	}
 
 	public function admin_index(){
@@ -41,9 +41,12 @@ class PagesController extends AppController {
 			'order' => array('created' => 'desc')
 			));
 		$title_for_layout = $page['Page']['title'];
+		$reviews = $this->Review->find('all');
+		$clients = $this->Client->find('all');
+		
 		$meta['keywords'] = $page['Page']['keywords'];
 		$meta['description'] = $page['Page']['description'];
-		$this->set(compact('page_alias', 'page', 'news', 'title_for_layout', 'meta'));
+		$this->set(compact('page_alias', 'page', 'news', 'reviews', 'clients', 'title_for_layout', 'meta'));
 	}
 
 	public function admin_edit($id){
