@@ -18,7 +18,7 @@
 						<p class="copyraight">
 							© 2016 uiux.kz  Usability lab. All Rights Reserved.
 						</p>
-						<ul class="social_list">
+						<ul class="social_list ">
 						<a href="">
 							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABB0lEQVQ4T6WTYVHDUBCEv1VAHYAD6gBQACigKAAH4IBKaB2AAqgCigMk4GA7++Yl8ygJk8L9SN4kd3t7u/fEP0NT6m2fAGfADHiR9Jk62zPlATxJuh0Csz0HXmtxl7IEzoHrAOSQhNUQiO10Ox4AfwY2AUiH95qQ5EdJ60qx/bePsZa0KBrY3gKnTcYXkG8BXIzodCHprWPwAFxNEbTJ6QEiYjodHQIgqbDvRkj31QEgsbIw7vfAdqy5m8ii0P8rQN/9G0B1IztxD1yOMPnIAkmKSyXaEeL5TbUtwu7HJk61xQWgbmLmb/egLU7XpaSI/CNaBrkwGSHvRBZp212cMXEn3cbfnNkBu55eqMiQAxQAAAAASUVORK5CYII="/>
 						</a>

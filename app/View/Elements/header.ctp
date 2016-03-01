@@ -16,17 +16,9 @@
 					</div>
 					<form action="asdasd" id="m_form">
 					<div class="m_search">
-						<div class="m_input">
-<<<<<<< HEAD
-						<form>
-							<input type="text" class="" name="" placeholder="Поиск"/>
-							
-								<button type="submit" class="sub_but"></button>
-							</form>
-=======
+						<div class="m_input asdasdasdasdasdasd">
 							<input type="text" required="required" name="search" placeholder="Поиск"/>
 								<button type="submit" class="sub_but" onclick="document.getElementById('m_form').submit(); return false;"></button>
->>>>>>> 0cc5de61ea13dddde1ebaa648b85755f8e9f5713
 							</div>
 						</div>
 					</form>
@@ -36,10 +28,10 @@
 				<div class="cr">
 				
 
-					<a href="/" class="logo">
+					<a href="" class="logo">
 						<img src="/img/logo.png" alt="Usability lab">
 					</a>
-					<a href="#modal1" class="feed_back">
+					<a href="" class="feed_back">
 						CONTACT US
 					</a>
 				</div>
@@ -62,15 +54,6 @@
 								<li><a href="/page/contacts">CONTACTS  </a></li>	
 							</ul>
 						</nav>
-<<<<<<< HEAD
-						<div class="search">
-							<div class="s_input">
-							<form action="/news/search/" method="post">
-							<input type="text" class="" name="q" placeholder="Поиск"/>
-							
-								<button type="submit" class="sub_but"></button>
-							</form>
-=======
 						<form acton="" id="s_form" >
 							<div class="search" >
 								<div class="s_input">
@@ -79,7 +62,6 @@
 									<button type="submit" class="sub_but" onclick="document.getElementById('s_form').submit(); return false;"></button>
 								
 								</div>
->>>>>>> 0cc5de61ea13dddde1ebaa648b85755f8e9f5713
 							</div>
 						</form>
 					</div>
