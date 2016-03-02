@@ -29656,3 +29656,70 @@ Request URL: /img/bigs.jpg
 Stack Trace:
 #0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-03-02 07:11:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-02 07:17:59 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\openserver\OpenServer\domains\ux.loc\app\Controller\NewsController.php, line 79]
+2016-03-02 07:17:59 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /news
+Stack Trace:
+#0 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\openserver\\O...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\openserver\\O...', 79, Array)
+#2 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\openserver\\O...', 79, Array)
+#3 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-02 07:18:20 Error: [MissingModelException] Product
+Request URL: /news
+Stack Trace:
+#0 C:\openserver\OpenServer\domains\ux.loc\app\Controller\NewsController.php(80): PaginatorComponent->paginate('Product')
+#1 [internal function]: NewsController->index()
+#2 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#3 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#5 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-02 07:23:34 Error: [NotFoundException] Такой страницы нет...
+Request URL: /news/index/page:2
+Stack Trace:
+#0 [internal function]: NewsController->view('index')
+#1 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#2 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#4 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-02 07:27:49 Error: [NotFoundException] Такой страницы нет...
+Request URL: /news/index/page:3
+Stack Trace:
+#0 [internal function]: NewsController->view('index')
+#1 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#2 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#4 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-02 07:51:56 Error: [NotFoundException] Такой страницы нет...
+Request URL: /news/page:2
+Stack Trace:
+#0 [internal function]: NewsController->view()
+#1 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#2 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#4 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-02 07:57:59 Error: [MissingActionException] Action NewsController::page:2() could not be found.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'page:2',
+)
+Request URL: /news/page:2
+Stack Trace:
+#0 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\openserver\OpenServer\domains\ux.loc\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest))
+#2 C:\openserver\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

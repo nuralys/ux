@@ -1,13 +1,9 @@
 <div class="slider_container">
 	<section class="big_photo" >
-		<div class="slider___item one">
+	<?php foreach($sliders as $item): ?>
+		<div class="slider___item <?=$item['Slider']['color'] ?>">
 		</div>
-		<div class="slider___item two">
-		</div>
-		<div class="slider___item three">
-		</div>
-		<div class="slider___item four">
-		</div>
+	<?php endforeach ?>
 	</section>
 	<div class=" cr ">
 		<div class=" two_slider ">	

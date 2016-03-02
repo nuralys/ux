@@ -1,6 +1,7 @@
 <?php
 
 class NewsController extends AppController{
+	public $components = array('Paginator');
 
 	public function admin_index(){
 		$data = $this->News->find('all', array(
@@ -71,9 +72,12 @@ class NewsController extends AppController{
 	public function index(){
 		
 		$title_for_layout = 'Новости';
-		$news = $this->News->find('all', array(
-			'order' => array('date' => 'desc')
-			));
+		$this->Paginator->settings = array(
+				'fields' => array('id', 'title', 'body', 'date', 'img'),
+				'recursive' => -1,
+				'limit' => 2,
+				);
+		$news = $this->Paginator->paginate('News');
 		// debug($news);
 		$this->set(compact('news', 'title_for_layout'));
 	}

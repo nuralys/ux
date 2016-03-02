@@ -4,6 +4,7 @@
 </div>
 
 <div class="content">
+
 	<ul class="news_list">
 	<?php foreach($news as $item): ?>
 		<li>
@@ -21,4 +22,29 @@
 		</li>
 		<?php endforeach ?>
 	</ul>
+	<div class="pagination">
+			<div class="pages"> <strong>Страница:</strong>
+	<?php 
+	echo $this->Paginator->counter(array(
+	'separator' => ' of a total of ',
+
+	));
+	?>
+
+	<?php echo $this->Paginator->first('<<'); ?>
+				<ol>
+	<?php echo $this->Paginator->numbers(
+	array(
+	'separator' => '',
+	'tag' => 'li',
+	'modulus' => 2
+	)
+	); ?>
+					<!-- <li class="current">1</li>
+					<li><a href="#">2</a></li>
+					<li> <a class="next i-next" href="#" title="Next"></a> </li> -->
+				</ol>
+	<?php echo $this->Paginator->last('>>'); ?>
+			</div>
+		</div>
 </div>
