@@ -192,6 +192,7 @@
 /*slider_comment*/
 .coment_news_container {
     padding: 35px 0;
+    clear: both;
     background: #ebebeb;
     overflow: hidden;
     margin-bottom: 20px;
