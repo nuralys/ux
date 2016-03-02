@@ -23,15 +23,20 @@
 		<?php endforeach ?>
 	</ul>
 	<div class="pagination">
-			<div class="pages"> <strong>Страница:</strong>
+			<div class="pages"> 
+			<div class="pages_list">
+			<strong>Страница:</strong>
+		
 	<?php 
 	echo $this->Paginator->counter(array(
 	'separator' => ' of a total of ',
 
 	));
 	?>
-
-	<?php echo $this->Paginator->first('<<'); ?>
+</div> 
+<div class="page_item">
+	<?php echo $this->Paginator->first('<<',(array('class' => 'first'))); ?>
+				
 				<ol>
 	<?php echo $this->Paginator->numbers(
 	array(
@@ -44,7 +49,8 @@
 					<li><a href="#">2</a></li>
 					<li> <a class="next i-next" href="#" title="Next"></a> </li> -->
 				</ol>
-	<?php echo $this->Paginator->last('>>'); ?>
+	<?php echo $this->Paginator->last('>>',(array('class' => 'last'))); ?>
+			</div>
 			</div>
 		</div>
 </div>

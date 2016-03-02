@@ -149,7 +149,7 @@
 }
 .s_input input {
     text-indent: 11px;
-    height: 36px;
+    height: 34px;
     float: left;
     width: 164px;
     text-indent: 8px;
@@ -345,6 +345,7 @@
 .about_nav li {
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .about_nav li:last-child {
     margin-right: 0px;
@@ -465,6 +466,7 @@
 }
 .news_list li {
     list-style: none;
+    overflow: hidden;
     margin-bottom: 20px;
 }
 /*news page and*/
@@ -697,6 +699,13 @@ textarea.modal_f {
 .portfolio_item_des p,.title_min{
 	text-align:left;
 }
+.about_img {
+    width: 100%;
+    text-align:center;
+}
+.about_text{
+	width:100%;
+}
 }
 @media screen and (max-width: 778px){
 	.about_us_container_list li {
@@ -705,6 +714,9 @@ textarea.modal_f {
 .services_des_img{
 	width:100%;
 	text-align:center;
+}
+.breadcrumbs_item_container,.logo_f{
+	display:none;
 }
 }
 @media screen and (max-width: 620px){
@@ -744,4 +756,45 @@ textarea.modal_f {
 	.read_more {
     margin-right: 10px;
 }
+.social_list {
+    float: none;
+    margin-top: 18px;
+}
+}
+.pagination {
+    clear: both;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pages a {
+    line-height: 15px;
+}
+
+.pages ol li {
+    float: left;
+    display: block;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+.pages ol li a {
+    color: #515151;
+    text-decoration: underline;
+}
+.pages_list {
+    margin-bottom: 10px;
+}
+
+.page_item {
+    display: inline-block;
+    position: relative;
+}
+.pages span {
+    position: absolute;
+}
+span.first {
+    left: -15px;
+}
+span.last {
+    right: -15px;
 }

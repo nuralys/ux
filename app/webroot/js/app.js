@@ -26,6 +26,16 @@ jQuery(document).ready(function() { // запускаем скрипт посл�
              );
      });
 });
+function foo()
+{
+  var input = document.getElementById('m_input');
+  location.href="/news/search?"+input.name+"="+input.value;
+}
+function foos()
+{
+  var inputs = document.getElementById('test');
+  location.href="/news/search?"+inputs.name+"="+inputs.value;
+  }
 $(document).ready(function() {
 	$(".fancybox").fancybox({
 		openEffect	: 'yes',
