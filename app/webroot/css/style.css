@@ -726,7 +726,7 @@ textarea.modal_f {
 .portfolio_list li:nth-child(2n) {
     margin-right: 0px;
 }
-	.services_item_text,.services_item_img , {
+	.services_item_text,.services_item_img  {
 		width: 100%;
 	}
 	.services_item_img img{
@@ -738,7 +738,7 @@ textarea.modal_f {
 .container,.portfolio_list li {
     width: 100%;
 }
-.services_item_img img{
+.services_item_img img,.services_des_img img {
 		width:100%;
 	}
 	.read_more {

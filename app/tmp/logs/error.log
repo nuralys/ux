@@ -29486,3 +29486,39 @@ Request URL: /img/bigs.jpg
 Stack Trace:
 #0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-03-02 07:20:45 Error: [MissingControllerException] Controller class ProtfolioController could not be found.
+Exception Attributes: array (
+  'class' => 'ProtfolioController',
+  'plugin' => NULL,
+)
+Request URL: /protfolio
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-02 07:59:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-02 08:09:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-02 08:09:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/news/thumbs/63337acabb8696a1704893afe84f3e4d.jpeg
+Stack Trace:
+#0 C:\OpenServer\domains\ux.loc\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
