@@ -48,7 +48,8 @@ class AppController extends Controller {
 		}
 		$news = $this->_getNews();
 		$reviews = $this->_getReviews();
-		$this->set(compact('admin', 'news', 'reviews'));
+		$clients = $this->_getClients();
+		$this->set(compact('admin', 'news', 'reviews', 'clients'));
 
 	}
 
@@ -65,5 +66,10 @@ class AppController extends Controller {
 			'conditions' => array('active' => '1')
 		));
 		return $reviews;
+	}
+
+	protected function _getClients(){
+		$clients = $this->Client->find('all');
+		return $clients;
 	}
 }
