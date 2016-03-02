@@ -71,11 +71,11 @@ class NewsController extends AppController{
 
 	public function index(){
 		
-		$title_for_layout = 'Новости';
+		$title_for_layout = 'News';
 		$this->Paginator->settings = array(
 				'fields' => array('id', 'title', 'body', 'date', 'img'),
 				'recursive' => -1,
-				'limit' => 2,
+				'limit' => 10,
 				);
 		$news = $this->Paginator->paginate('News');
 		// debug($news);
@@ -96,7 +96,7 @@ class NewsController extends AppController{
 	}
 
 	public function search(){
-		$search = !empty($_GET['q']) ? $_GET['q'] : null ;
+		$search = !empty($_GET['search']) ? $_GET['search'] : null ;
 		if( is_null($search)){
 			return $this->set('search_res', 'Enter your search query');
 		}

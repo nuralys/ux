@@ -1,6 +1,6 @@
 <div class="breadcrumbs_item_container">
 	<a href="/" class="breadcrumbs_item">Home page</a>
-	<a class="breadcrumbs_item">NEWS</a>
+	<a class="breadcrumbs_item">SEARCH</a>
 </div>
 
 <div class="content">
@@ -26,15 +26,19 @@
 	</ul>
 
 	<div class="pagination">
-			<div class="pages"> <strong>Page:</strong>
+		<div class="pages">
+			<div class="pages_list">
+				<strong>Page:</strong>
 	<?php 
 	echo $this->Paginator->counter(array(
 	'separator' => ' of a total of ',
 
 	));
 	?>
+	</div> 
+<div class="page_item">
 
-	<?php echo $this->Paginator->first('<<'); ?>
+	<?php echo $this->Paginator->first('<<', (array('class' => 'first'))); ?>
 				<ol>
 	<?php echo $this->Paginator->numbers(
 	array(
@@ -47,7 +51,8 @@
 					<li><a href="#">2</a></li>
 					<li> <a class="next i-next" href="#" title="Next"></a> </li> -->
 				</ol>
-	<?php echo $this->Paginator->last('>>'); ?>
+	<?php echo $this->Paginator->last('>>' ,(array('class' => 'last'))); ?>
+	</div>
 			</div>
 		</div>
 		<?php else: ?>
