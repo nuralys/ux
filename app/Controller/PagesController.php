@@ -49,6 +49,15 @@ class PagesController extends AppController {
 		$this->set(compact('page_alias', 'page', 'news', 'reviews', 'clients', 'title_for_layout', 'meta'));
 	}
 
+	public function contacts(){
+		$this->view = 'contacts';
+		$page = $this->Page->findByAlias('contacts');
+		$title_for_layout = $page['Page']['title'];
+		$meta['keywords'] = $page['Page']['keywords'];
+		$meta['description'] = $page['Page']['description'];
+		$this->set(compact('title_for_layout', 'meta', 'page'));
+	}
+
 	public function admin_edit($id){
 		if(is_null($id) || !(int)$id || !$this->Page->exists($id)){
 			throw new NotFoundException('Not found...');

@@ -34,6 +34,7 @@
 	Router::connect('/news/view/*', array('controller' => 'news', 'action' => 'view'));
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
 	Router::connect('/portfolio', array('controller' => 'portfolios', 'action' => 'index'));
+	Router::connect('/contacts', array('controller' => 'pages', 'action' => 'contacts'));
 	Router::connect('/portfolio/*', array('controller' => 'portfolios', 'action' => 'view'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.

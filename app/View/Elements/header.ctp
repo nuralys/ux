@@ -10,7 +10,7 @@
 					<li><a href="/services">SERVICES </a></li>
 					<li><a href="/protfolio"> PORTFOLIO</a></li>
 					<li><a href="/news">  NEWS    </a></li>
-					<li><a href="/page/contacts">CONTACTS  </a></li>	
+					<li><a href="/contacts">CONTACTS  </a></li>	
 				</ul>
 				<div class="mob_close"></div>
 			</div>
