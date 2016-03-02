@@ -94,4 +94,19 @@ class NewsController extends AppController{
 
 		$this->set(compact('post', 'news'));
 	}
+
+	public function search(){
+		$search = !empty($_GET['q']) ? $_GET['q'] : null ;
+		if( is_null($search)){
+			return $this->set('search_res', 'Enter your search query');
+		}
+		$this->Paginator->settings = array(
+			'conditions' => array('News.title LIKE' => '%' . $search . '%'),
+			'fields' => array('id', 'title', 'body', 'date', 'img'),
+			'recursive' => -1,
+			'limit' => 10,
+			);
+		$search_res = $this->Paginator->paginate('News');
+		$this->set(compact('search_res'));
+	}
 }
