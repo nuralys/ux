@@ -747,8 +747,11 @@ textarea.modal_f {
 	
 }
 @media screen and (max-width: 480px){
-.container,.portfolio_list li {
+.container,.portfolio_list li ,.about_us_container_list li,.contact_info,.map{
     width: 100%;
+}
+.map{
+	margin-bottom:15px;
 }
 .services_item_img img,.services_des_img img {
 		width:100%;
