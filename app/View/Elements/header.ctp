@@ -16,7 +16,7 @@
 					</div>
 					<form action="/news/search" id="m_form">
 					<div class="m_search">
-						<div class="m_input asdasdasdasdasdasd">
+						<div class="m_input ">
 							<input type="text" required="required" name="search" placeholder="Поиск" id="m_input"/>
 								<button type="submit" class="sub_but" onclick="document.getElementById('m_form').submit(); return false;"></button>
 							</div>
@@ -54,11 +54,12 @@
 								<li><a href="/page/contacts">CONTACTS  </a></li>	
 							</ul>
 						</nav>
-						<form acton="/news/search" id="m_form">
+						<form action="/news/search" id="s_form" >
 							<div class="search" >
 								<div class="s_input">
-								<input type="text" required="required" name="search" placeholder="Поиск" id="m_input"/>
-								<button type="submit" class="sub_but" onclick="document.getElementById('m_form').submit(); return false;"></button>
+								<input type="text" required="required" name="search" placeholder="Поиск" id="s_input"								/>
+								
+									<button type="submit" class="sub_but" onclick="document.getElementById('s_form').submit(); return false;"></button>
 								
 								</div>
 							</div>

@@ -26,16 +26,12 @@ jQuery(document).ready(function() { // запускаем скрипт посл�
              );
      });
 });
-function foo()
-{
+function foo(){
   var input = document.getElementById('m_input');
-  location.href="/news/search?"+input.name+"="+input.value;
+  location.href="/news/search/?"+input.name+"="+input.value;
+   var inputs = document.getElementById('s_input');
+  location.href="/news/search/?"+inputs.name+"="+inputs.value;
 }
-function foos()
-{
-  var inputs = document.getElementById('test');
-  location.href="/news/search?"+inputs.name+"="+inputs.value;
-  }
 $(document).ready(function() {
 	$(".fancybox").fancybox({
 		openEffect	: 'yes',
