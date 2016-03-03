@@ -56,7 +56,7 @@ class AppController extends Controller {
 	protected function _getNews(){
 		$news = $this->News->find('all', array(
 			'order' => array('date' => 'desc'),
-			'limit' => 9
+			'limit' => 4
 			));
 		return $news;
 	}

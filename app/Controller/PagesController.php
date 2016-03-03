@@ -4,22 +4,15 @@ App::uses('AppController', 'Controller');
 
 class PagesController extends AppController {
 
-	public $uses = array('Page', 'News', 'Review', 'Client', 'Slider');
+	public $uses = array('Page', 'Slider');
 
 	public function home(){
-		$news = $this->News->find('all', array(
-			'limit' => 4,
-			'order' => array('date' => 'desc')
-		));
-		
-		$clients = $this->Client->find('all');
 		$sliders = $this->Slider->find('all', array(
 			'order' => array('id' => 'desc')
 		));
-		
 		$this->layout = 'index';
 		$title_for_layout = 'Usability Lab';
-		$this->set(compact('news', 'title_for_layout', 'clients', 'sliders'));
+		$this->set(compact('title_for_layout', 'sliders'));
 	}
 
 	public function admin_index(){

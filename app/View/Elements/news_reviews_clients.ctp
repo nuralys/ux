@@ -30,7 +30,8 @@
 								<?php echo $this->Time->format($item['News']['date'], '%e %b', 'invalid'); ?>
 								</div>
 								<div class="news_title_slide">
-									<a href="/news/<?=$item['News']['id']?>"><?=$item['News']['title']?></a>
+									<a href="/news/<?=$item['News']['id']?>">
+									<?= $this->Text->truncate(strip_tags($item['News']['title']), 133, array('ellipsis' => '...', 'exact' => true)) ?></a>
 								</div>
 								<p>
 									<?= $this->Text->truncate(strip_tags($item['News']['body']), 159, array('ellipsis' => '...', 'exact' => true)) ?>
