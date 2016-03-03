@@ -19,7 +19,7 @@
 						<?php endforeach ?>
 					</section>
 					<a href="#modal2" class="open_modal feed_back comments">Give feedback</a>
-					<a href="" class="all_comment">All reviews</a>
+					<a href="/reviews" class="all_comment">All reviews</a>
 				</div>
 				<div class="news_slide">
 					<section class="slider-news" >
@@ -30,18 +30,18 @@
 								<?php echo $this->Time->format($item['News']['date'], '%e %b', 'invalid'); ?>
 								</div>
 								<div class="news_title_slide">
-									<a href="/news/<?=$item['News']['id']?>">
+									<a href="/news/view/<?=$item['News']['id']?>">
 									<?= $this->Text->truncate(strip_tags($item['News']['title']), 133, array('ellipsis' => '...', 'exact' => true)) ?></a>
 								</div>
 								<p>
-									<?= $this->Text->truncate(strip_tags($item['News']['body']), 159, array('ellipsis' => '...', 'exact' => true)) ?>
+									<?= $this->Text->truncate(strip_tags($item['News']['body']), 395, array('ellipsis' => '...', 'exact' => true)) ?>
 								</p>
 							</div>
 						</div>
 						<?php endforeach ?>
 					</section>
-					<a href="" class="feed_back comments">Comment</a>
-					<a href="" class="all_comment">All comments</a>
+					
+					<a href="/news" class="all_comment">All comments</a>
 				</div>
 			</div>
 		</div>

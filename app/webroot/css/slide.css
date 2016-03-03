@@ -274,6 +274,9 @@
     line-height: 22px;
     margin-bottom: 13px;
 }
+.news_title_slide:hover {
+    text-decoration: none;
+}
 .slider_news_content p {
     margin-bottom: 20px;
 }
