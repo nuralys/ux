@@ -18,7 +18,7 @@
 						<p>
 							<?= $this->Text->truncate(strip_tags($item['Portfolio']['requirements']), 150, array('ellipsis' => '...', 'exact' => true)) ?>
 						</p>
-						<a href="" class="read_more">Order it now</a>
+						<a href="#modal3" class="open_modal read_more">Order it now</a>
 						<a href="/portfolio/<?=$item['Portfolio']['id']?>" class="read_more fl_r">Read more</a>
 					</div>
 				</div>
