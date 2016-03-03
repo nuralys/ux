@@ -85,4 +85,21 @@ class ReviewsController extends AppController{
 		}
 		return $this->redirect($this->referer());
 	}
+
+	public function give_feedback(){
+		if($this->request->is('post')){
+			$this->Review->create();
+			$data = $this->request->data['Review'];
+			// debug($this->request->data);
+			// debug($data);
+			// die();
+			if($this->Review->save($data)){
+				$this->Session->setFlash('Saved', 'default', array(), 'good');
+				// debug($data);
+				return $this->redirect($this->referer());
+			}else{
+				$this->Session->setFlash('Error', 'default', array(), 'bad');
+			}
+		}
+	}
 }

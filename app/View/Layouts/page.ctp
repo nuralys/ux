@@ -34,7 +34,9 @@
 				<?php echo $this->Session->flash('bad'); ?>
 				<?php echo $this->fetch('content'); ?>
 			</div>
+			<?php if($this->request->params['controller'] == 'pages' && $this->request->params['action'] != 'contacts'): ?>
 				<?php  echo $this->element('news_reviews_clients') ?>
+			<?php endif ?>
 		</div>
 			<?=$this->element('footer')?>
 	</div>

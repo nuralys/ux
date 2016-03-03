@@ -14,6 +14,7 @@ class SlidersController extends AppController{
 			$data = $this->request->data['Slider'];
 			// debug($this->request->data);
 			// debug($data);
+			// die();
 
 			if($this->Slider->save($data)){
 				$this->Session->setFlash('Saved', 'default', array(), 'good');

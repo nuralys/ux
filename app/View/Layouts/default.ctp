@@ -67,9 +67,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					<div class="top_menu_item">
 						<a href="/admin/news">Новости</a>
 					</div>
-					<div class="top_menu_item">
-						<a href="">Контакты</a>
-					</div>
+					
 					<div class="top_menu_item ">
 						<a href="/admin/sliders">Слайдер</a>
 					</div>

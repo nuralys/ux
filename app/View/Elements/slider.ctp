@@ -26,7 +26,7 @@
 						</p>
 
 					</div>
-					<a href="#modal1" class="feed_back order open_modal">ORDER</a>
+					<a href="#modal3" class="feed_back order open_modal">ORDER</a>
 				</div>
 			<?php endforeach ?>
 			</section>
