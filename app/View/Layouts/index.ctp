@@ -41,7 +41,7 @@
 								Why choose us?
 							</div>
 							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-							<a href="" class="read_more">Read more</a>
+							<a href="/page/why_choose_us" class="read_more">Read more</a>
 						</div>
 					</li>
 					<li>
@@ -51,7 +51,7 @@
 							What We Offer
 							</div>
 							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-							<a href="" class="read_more">Read more</a>
+							<a href="/page/what_we_offer" class="read_more">Read more</a>
 						</div>
 					</li>
 					<li>
@@ -61,7 +61,7 @@
 								Our team
 							</div>
 							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-							<a href="" class="read_more">Read more</a>
+							<a href="/page/our_team" class="read_more">Read more</a>
 						</div>
 					</li>
 					<li>
@@ -71,7 +71,7 @@
 								Featured services
 							</div>
 							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-							<a href="" class="read_more">Read more</a>
+							<a href="/page/featured_service" class="read_more">Read more</a>
 						</div>
 					</li>
 				</ul>

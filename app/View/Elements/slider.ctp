@@ -19,7 +19,7 @@
 				<div class="slider__item">
 					<div class="des_slider">
 						<div class="title_des">
-							<?=$item['Slider']['title']?>
+						<?= $this->Text->truncate(strip_tags($item['Slider']['title']), 104, array('ellipsis' => '...', 'exact' => true)) ?>
 						</div>
 						<p>
 							<?=$item['Slider']['body']?>
