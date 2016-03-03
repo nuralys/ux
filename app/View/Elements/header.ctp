@@ -8,7 +8,7 @@
 							<li><a href="/">HOME PAGE</a></li>
 							<li><a href="/page/about">ABOUT US </a></li>
 							<li><a href="/services">SERVICES </a></li>
-							<li><a href="/protfolio"> PORTFOLIO</a></li>
+							<li><a href="/portfolio"> PORTFOLIO</a></li>
 							<li><a href="/news">  NEWS    </a></li>
 							<li><a href="/contacts">CONTACTS  </a></li>	
 						</ul>

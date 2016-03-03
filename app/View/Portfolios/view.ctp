@@ -52,7 +52,7 @@
 								</div>
 							</li>
 						</ul>
-						<a href="" class="read_more">Order it now</a>
+						<a href="#modal3" class="open_modal read_more">Order it now</a>
 					</div>
 					
 				</div>
