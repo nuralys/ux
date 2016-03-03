@@ -5,7 +5,7 @@ App::uses('Controller', 'Controller');
 
 
 class AppController extends Controller {
-	public $uses = array('App', 'News', 'Review');
+	public $uses = array('App', 'News', 'Review', 'Client');
 
 	public $components = array('DebugKit.Toolbar', 'Menu', 'Session', 'Auth' => array(
             'loginRedirect' => '/',

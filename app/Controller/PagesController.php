@@ -86,4 +86,23 @@ class PagesController extends AppController {
 			$this->set(compact('id', 'data', 'title_for_layout'));
 		}
 	}
+
+	public function contactus(){
+
+		if( !empty($this->request->data) ){
+			$email = new CakeEmail('smtp');
+			$email->from(array('info@uxui.kz' => 'Usability Lab'))
+			->to('info@uxui.kz')
+			->subject('New letter');
+			$message = 'Name: '. $this->request->data['Page']['name'] . ' Телефон: '. $this->request->data['Page']['phone'];
+			if( $email->send($message) ){
+				$this->Session->setFlash('Письмо успешно отправлено', 'default', array(), 'good');
+				//unset($message);
+				// return $this->redirect($this->referer());
+			}else{
+				$this->Session->setFlash('Ошибка!', 'default', array(), 'bad');
+				return $this->redirect($this->referer());
+			}
+		}
+	}
 }

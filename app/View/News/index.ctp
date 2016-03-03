@@ -17,7 +17,7 @@
 				</div>
 				<div class="date"><?=$item['News']['date'] ?></div>
 				<p><?= $this->Text->truncate(strip_tags($item['News']['body']), 850, array('ellipsis' => '...', 'exact' => true)) ?></p>
-				<a href="/news/<?=$item['News']['id'] ?>" class="read_more">Read more</a>
+				<a href="/news/view/<?=$item['News']['id'] ?>" class="read_more">Read more</a>
 			</div>
 		</li>
 		<?php endforeach ?>
