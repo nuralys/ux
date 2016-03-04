@@ -1,5 +1,5 @@
 <div class="slider_container">
-	<section class="big_photo" >
+	<section class="big_photo sliders" >
 	<?php foreach($sliders as $item): ?>
 		<div class="slider___item <?=$item['Slider']['color'] ?>">
 		</div>
@@ -7,14 +7,14 @@
 	</section>
 	<div class=" cr ">
 		<div class=" two_slider ">	
-			<section class="slider-photo" >
+			<section class="slider-photo sliders" >
 			<?php foreach($sliders as $item): ?>
 				<div class="slider__item">
 						<img src="/img/slider/thumbs/<?=$item['Slider']['img']?>" alt="<?=$item['Slider']['title']?>">
 				</div>
 			<?php endforeach ?>
 			</section>
-			<section class="slider-text" >
+			<section class="slider-text sliders" >
 			<?php foreach($sliders as $item): ?>
 				<div class="slider__item">
 					<div class="des_slider">

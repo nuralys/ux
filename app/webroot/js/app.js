@@ -59,16 +59,7 @@ $(document).ready(function() {
 
 
 jQuery(document).ready(function ($) {
-    $('.slider-photo').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: false,
-        lazyLoad: 'progressive',
-        speed: 1000,
-        fade: true,
-    });
-    $('.big_photo').slick({
+      $('.big_photo').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -77,12 +68,22 @@ jQuery(document).ready(function ($) {
         fade: true,
 		lazyLoad: false,
     });
+	$('.slider-photo').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: false,
+        lazyLoad: 'progressive',
+        speed: 1000,
+        fade: true,
+    });
+  
 	$('.slider-text').slick({
         slidesToShow: 1,
         arrows: false,
         slidesToScroll: 1,
-        asNavFor: '.slider-photo',
-		asNavFor: '.big_photo',
+        asNavFor: '.sliders ',
+		autoplay: true,
         dots: true,
         centerMode: false,
         focusOnSelect: true,
@@ -95,8 +96,8 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
     $('.slider-comment').slick({
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 1950,
         speed: 1000,
         arrows: true,
         slidesToShow: 1,
@@ -107,7 +108,7 @@ jQuery(document).ready(function ($) {
         nextArrow: '<span class="slick-next slider-comment-nav--next" aria-label="next"></span>'
     });
     $('.slider-news').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         speed: 1000,
         arrows: true,
@@ -119,7 +120,7 @@ jQuery(document).ready(function ($) {
         nextArrow: '<span class="slick-next slider-news slick-nav--next" aria-label="next"></span>'
     });
     $('.slider-our_clients').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         speed: 1000,
         arrows: true,

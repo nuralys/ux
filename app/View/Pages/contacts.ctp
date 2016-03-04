@@ -8,7 +8,16 @@
 			<p>г. Астана, ул. Куйши Дина 23/1</p>
 			<p>info@astanacreative.kz</p>
 			<p>+7 (702) 411-13-34</p>
+			<div class="form_contact">
+			<div class="title">CONTACT US</div>
+				<form>
+					<input name="" id="" maxlength="200" class="modal_f" type="text" size="1" required="" placeholder="Name...">
+					<input name="" id="" maxlength="200" class="modal_f" type="text" size="1" required="" placeholder="Number...">
+					<button type="submit" name="submit1">Send</button>
+				</from>
+			</div>
 		</div>
+		
 	</div>
 </div>
 <?php //echo $this->element('news_reviews_clients') ?>
