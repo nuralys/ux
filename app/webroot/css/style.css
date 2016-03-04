@@ -805,3 +805,9 @@ span.first {
 span.last {
     right: -15px;
 }
+.reviews_list li {
+    list-style: none;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #cecece;
+    padding-bottom: 5px;
+}
